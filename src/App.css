@@ -1,0 +1,213 @@
+body{
+  margin:0;
+  padding: 0;   
+}
+
+#root{
+  margin:0;
+  padding: 0;  
+}
+
+.App{
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding: 0;
+  position: absolute;
+}
+
+.Dark{
+  background-color: #141414;
+}
+
+.header{
+  height: auto;
+  width: 100%;
+}
+
+.headerana{
+  height: 120px;
+  width: 100%;
+}
+
+.headerlogo{
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 50px;
+  font-size: xxx-large;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:cadetblue;
+  overflow: hidden;
+}
+
+.headerbuton{
+  float: left;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  text-align: right;
+  padding-top: 50px;
+}
+
+.switchbuton{
+  background-color: #eb6440;
+  width: 120px;
+  padding-left: 5px;
+  height: auto;
+  text-align: left;
+  float: right;
+  font-size: 20px;
+}
+
+.tarih{
+  margin-left:190px;
+  font-size: 20px;
+  color:brown;
+}
+
+.mainWeatherArea{
+  width: 80%;
+  margin-left: 10%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.citiesarea{
+  height: 100px;
+}
+
+.WeatherArea{
+  height: 100%;
+  width: 100%;
+}
+
+.drop{
+  margin-left: calc(50% - 135px);
+  padding-top: 20px;
+}
+
+#dropdown-basic{
+  width: 270px;
+  height: 70px;
+  background-color: lightgreen;
+  font-size: 30px;
+}
+
+#dropdown-basic:hover{
+  box-shadow: 2px 2px 2px gray;
+}
+
+.dropMenu{
+  width: 270px;
+  max-height: 280px;
+  overflow-y: scroll;
+}
+
+.dropItem{
+font-size: 25px;
+}
+
+.today{
+  width: 30%;
+  height: 80%;
+  margin: 0;
+  overflow: hidden;
+  float: left;
+  border-right: 1px solid gray;
+}
+
+.otherDays{
+  width: 70%;
+  height: 80%;
+  overflow: hidden;
+  float: left;
+  padding: 0;
+}
+
+ul{
+  list-style-type: none;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color:#141414;
+  padding-top: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sehir{
+  font-size: 50px;
+  color:coral;
+}
+
+.tarihsaat{
+  font-size: small;
+  margin-bottom: 20px;
+  color:#497174;
+}
+
+.derece{
+  font-size:70px;
+  color:cadetblue;
+}
+
+.durum{
+  font-size: small;
+  color:#497174;
+}
+
+.otherDays{
+  list-style-type: none;
+  overflow: hidden;
+  width: 70%;
+  height: 80%;
+  text-align: center;
+  color:#141414;
+  padding:0;
+  margin:0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.otherDaysli{
+  float: left;
+  height: 140px;
+  width: 32%;
+  margin-left: 1px;
+  margin-bottom: 1px;
+  overflow: hidden;
+}
+
+.otherDaysliul{
+  list-style-type: none;
+  margin:0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.othertarihsaat{
+  color: #eb6440;
+  font-size: 20px;
+}
+
+.otherderece{
+  font-size: 40px;
+  color: cornflowerblue;
+}
+
+.otherdurum{
+  font-size: 15px;
+  color:#497174;
+}
+.yukleniyor{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 50%;
+  font-size: large;
+}
+
